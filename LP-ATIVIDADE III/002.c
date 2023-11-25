@@ -34,6 +34,8 @@ int main()
          printf("Notas do %d aluno:%.1f\n", j + 1, nota[i][j]);
         }
         printf("Media do %d aluno:%.1f\n", j + 1, media[i]);
+        media [i] >= 7 ? printf ("O ALUNO ESTA APROVADO.."):(( media [i] >= 5)?printf("O ALUNO ESTA EM RECUPERACAO..."):printf ("O ALUNO ESTA REPROVADO.."));
+        printf("\n");
         printf("\n");
     }
 
